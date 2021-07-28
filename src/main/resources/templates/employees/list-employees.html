@@ -10,18 +10,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-
-	<!--  reference css --> <!-- 	<link rel="stylesheet"
-		  th:href="@{/css/demo.css}" /> -->
 </head>
 
 <body>
 
 <div class="container">
 	<!-- 	<p th:text="'Time on the server is ' + ${theDate}" class="funny" /> -->
+	
+
 
 	<h3>Employee Directory</h3>
 	<hr>
+	
+	<!-- Add button -->
+	<a th:href="@{/employees/showFormForAdd}"
+		class="btn btn-primary btn-sm mb-3">
+		Add Employee
+	</a>	
 	
 	<table class="table table-bordered table-striped">
 		<thead class="thead-dark">
