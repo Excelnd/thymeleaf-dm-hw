@@ -1,4 +1,4 @@
-package com.ihs2code.springboot.thymeleafdm.model;
+package com.ihs2code.springboot.thymeleafdm.entity;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
